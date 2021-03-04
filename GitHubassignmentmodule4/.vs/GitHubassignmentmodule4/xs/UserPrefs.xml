@@ -1,9 +1,9 @@
 ﻿<Properties StartupConfiguration="{97249F1A-B3AE-425E-B9A3-F4507D237AE4}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="GitHubassignmentmodule4/Startup.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="GitHubassignmentmodule4/Views/Home/Index.cshtml">
     <Files>
-      <File FileName="GitHubassignmentmodule4/Views/Shared/_Layout.cshtml" Line="1" Column="1" />
-      <File FileName="GitHubassignmentmodule4/Views/Home/Index.cshtml" Line="9" Column="1" />
-      <File FileName="GitHubassignmentmodule4/Startup.cs" Line="26" Column="47" />
+      <File FileName="GitHubassignmentmodule4/Views/Shared/_Layout.cshtml" Line="24" Column="26" />
+      <File FileName="GitHubassignmentmodule4/Views/Home/Index.cshtml" Line="6" Column="82" />
+      <File FileName="GitHubassignmentmodule4/Startup.cs" Line="26" Column="76" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -18,8 +18,11 @@
                 <Node name="Home" expanded="True" />
                 <Node name="Shared" expanded="True" />
               </Node>
-              <Node name="wwwroot" expanded="True" />
-              <Node name="Startup.cs" selected="True" />
+              <Node name="wwwroot" expanded="True">
+                <Node name="Images" expanded="True">
+                  <Node name="Dr Seuss.jpeg" selected="True" />
+                </Node>
+              </Node>
             </Node>
           </Node>
         </State>
