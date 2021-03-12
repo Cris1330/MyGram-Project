@@ -13,30 +13,29 @@ table {
 button {
     color: blue;
 }
-header{
-           background-color: dodgerblue;
-           border-color:red;
-           border-style:solid;
-           border-width:1px;
-           
-}
-html{
-    font-size: 16px;
+   
+
+    #Div1{background-color:green;
+
+    }
+
+
+#Span1{
+    background-color:aqua;
+    color:white;
+  
+   /* display:none;*/
+    visibility: hidden;
+
+
+
+#Div2 {
+    background-color:purple;
 }
 
-.pb-3{
-    text-align: left;
-    text-transform:capitalize;
-    font-family: "Time New Roman", Helvetica, sans-serif;
-    font-variant:small-caps;
-    font-size: 1rem;
-    font: italic small-caps bold 16px/30px Georgia,serif;
-    background-image: url("../images/honey 1.jpg");
-    background-repeat: no-repeat;
-    background-position: bottom;
-    opacity: 2;
+
+#Span2 {
+    background-color: aqua;
+    color: white;
+    margin-top: 15px;
 }
-{
-    Footer a:hover}
-{
-    text-decoration:none}
