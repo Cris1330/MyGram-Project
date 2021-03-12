@@ -352,3 +352,4 @@
 /Users/cristalzavala/Desktop/New project /GitHubassignmentmodule4/GitHubassignmentmodule4/obj/Debug/netcoreapp3.1/GitHubassignmentmodule4.MvcApplicationPartsAssemblyInfo.cs
 /Users/cristalzavala/Desktop/New project /GitHubassignmentmodule4/GitHubassignmentmodule4/obj/Debug/netcoreapp3.1/Razor/Views/Home/Register.cshtml.g.cs
 /Users/cristalzavala/Desktop/New project /GitHubassignmentmodule4/GitHubassignmentmodule4/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_TestPartial.cshtml.g.cs
+/Users/cristalzavala/Desktop/New project /GitHubassignmentmodule4/GitHubassignmentmodule4/obj/Debug/netcoreapp3.1/Razor/Views/Home/User_Profile.cshtml.g.cs

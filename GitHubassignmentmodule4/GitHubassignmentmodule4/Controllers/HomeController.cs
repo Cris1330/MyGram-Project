@@ -40,8 +40,14 @@ namespace GitHubassignmentmodule4.Controllers
             return Content(result);
         }
 
+        public IActionResult UserProfile()
 
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+        {
+            return View("User_Profile");
+        }
+
+
+            [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
