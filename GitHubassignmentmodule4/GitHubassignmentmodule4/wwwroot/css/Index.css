@@ -20,22 +20,43 @@ button {
     }
 
 
-#Span1{
-    background-color:aqua;
-    color:white;
-  
-   /* display:none;*/
+#Span1 {
+    background-color: aqua;
+    color: white;
+    /* display:none;*/
     visibility: hidden;
-
-
-
+}
+/*
 #Div2 {
     background-color:purple;
 }
-
+*/
 
 #Span2 {
     background-color: aqua;
     color: white;
     margin-top: 15px;
+}
+
+ul{
+    color:black;
+    list-style-type: square;
+    list-style-position: inside;
+    columns: 3;
+}
+
+::marker {
+    color:deeppink;
+}
+   
+#TestDiv p::selection{
+    background-color:blue;
+    color:yellow;
+}
+
+table{
+    text-align:center;
+    border-style:solid;
+    border-width:1px;
+    border-color:black;
 }

@@ -1,4 +1,5 @@
-﻿<form>
+﻿<form action="~/Home/RegisterUser" method="post">
+
     <fieldset>
         <legend>Register information</legend>
         <table>
@@ -8,7 +9,7 @@
                         <label for="UserName">UserName:</label>
                     </td>
                     <td>
-                        <input id="UserName"
+                        <input id="UserName" name="User"
                                type="text" value="My User"
                                size="40" maxlength="15"
                                placeholder="Type in your usarname"
@@ -20,7 +21,7 @@
                         <label for="Password">Password:</label>
                     </td>
                     <td>
-                        <input id="Password" type="password" size="40"
+                        <input id="Password" type="password"  name="password" size="40"
                                placeholder="Type in your password" />
                     </td>
                 </tr>

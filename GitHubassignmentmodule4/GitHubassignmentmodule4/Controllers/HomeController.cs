@@ -31,7 +31,15 @@ namespace GitHubassignmentmodule4.Controllers
 
         {
             return View();
+
         }
+        public IActionResult RegisterUser(string User,string password)
+
+        {
+            string result = "The user is " + User + " and the Password is "+ password;
+            return Content(result);
+        }
+
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
