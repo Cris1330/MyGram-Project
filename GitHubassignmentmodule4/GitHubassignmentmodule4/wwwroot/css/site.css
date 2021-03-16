@@ -91,7 +91,6 @@ html {
     font-variant: small-caps;
     font-size: 1rem;
     font: italic small-caps bold 16px/30px Georgia,serif;
-    background-image: url("../images/honey 1.jpg");
     background-repeat: no-repeat;
     background-position: bottom;
     opacity: 2;
@@ -109,9 +108,8 @@ html {
     }
 
 .GramButtons:hover {
-
-background-color:rebeccapurple;
-border-color:hotpink;
-border-width:20;
-cursor:progress;
-
+    background-color: rebeccapurple;
+    border-color: hotpink;
+    border-width: 20;
+    cursor: progress;
+}

@@ -54,9 +54,72 @@ ul{
     color:yellow;
 }
 
-table{
-    text-align:center;
-    border-style:solid;
-    border-width:1px;
-    border-color:black;
+table {
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    width: 100%;
+    vertical-align: top;
 }
+caption {
+    caption-side: top;
+}
+ table tr{
+     border-style:solid;
+     border-width: 1px;
+     border-color: black;
+ }
+
+
+
+table th, table td {
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+
+table thead tr:first-child {
+    background-color: green;
+    color: white;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #33ECFF;
+    color: white;
+}
+
+    table tbody tr:nth-child(even):hover {
+        background-color: #6833FF;
+        color: white;
+    }
+
+table tbody tr:nth-child(odd):hover {
+    background-color: #FF338D;
+    color: black;
+}
+
+
+.PositionClass {
+    background-color: red;
+    color: white !important;
+    position: relative;
+}
+   
+
+.PositionClass2 {
+    background-color: orange;
+    color: white !important;
+    position: absolute;
+    top:50px;
+    left:20px;
+    z-index: 2;
+    
+}
+
+.PositionClass3{
+    background-color: red;
+    color: white !important;
+    position: absolute;
+    top:60px;
+    left:30px;
