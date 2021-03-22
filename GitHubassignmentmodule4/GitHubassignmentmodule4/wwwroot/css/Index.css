@@ -1,10 +1,22 @@
 ﻿
 body {
     color: blue;
-    background-color: lightpink;
+    background-color: white;
 }
 div{/*comments*/
-    color:darkgreen}
+    color:darkgreen;
+
+}
+
+footer{
+    color:brown;
+}
+#Main Product{
+    color:darkgreen;
+}
+article{
+    color:gray;
+}
 
 table {
     color: purple;
@@ -13,7 +25,14 @@ table {
 button {
     color: blue;
 }
-   
+
+header {
+    border-color:black;
+    border-style:solid;
+    border-width:4px;
+    
+}
+
 
     #Div1{background-color:green;
 
@@ -100,26 +119,16 @@ table tbody tr:nth-child(odd):hover {
 }
 
 
-.PositionClass {
-    background-color: red;
-    color: white !important;
-    position: relative;
-}
-   
-
-.PositionClass2 {
-    background-color: orange;
-    color: white !important;
-    position: absolute;
-    top:50px;
-    left:20px;
-    z-index: 2;
-    
+.mytitle {
+    font-family: Apple Chancery;
+    font-size:24px;
+    font-weight:bold;
 }
 
-.PositionClass3{
-    background-color: red;
-    color: white !important;
-    position: absolute;
-    top:60px;
-    left:30px;
+   .number{
+       font-weight:bold;
+
+   }
+.name {
+    color: gray !important;
+}
