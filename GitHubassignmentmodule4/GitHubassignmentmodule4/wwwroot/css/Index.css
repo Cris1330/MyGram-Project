@@ -8,8 +8,9 @@ div{/*comments*/
 
 }
 
-footer{
-    color:brown;
+footer {
+    color: brown;
+    text-align: center;
 }
 #Main Product{
     color:darkgreen;
@@ -78,46 +79,12 @@ table {
     border-style: solid;
     border-width: 1px;
     border-color: black;
-    width: 100%;
     vertical-align: top;
 }
 caption {
     caption-side: top;
 }
- table tr{
-     border-style:solid;
-     border-width: 1px;
-     border-color: black;
- }
-
-
-
-table th, table td {
-    border-style: solid;
-    border-width: 1px;
-    border-color: black;
-}
-
-table thead tr:first-child {
-    background-color: green;
-    color: white;
-}
-
-table tbody tr:nth-child(even) {
-    background-color: #33ECFF;
-    color: white;
-}
-
-    table tbody tr:nth-child(even):hover {
-        background-color: #6833FF;
-        color: white;
-    }
-
-table tbody tr:nth-child(odd):hover {
-    background-color: #FF338D;
-    color: black;
-}
-
+ 
 
 .mytitle {
     font-family: Apple Chancery;
@@ -131,4 +98,81 @@ table tbody tr:nth-child(odd):hover {
    }
 .name {
     color: gray !important;
+    cursor: pointer;
+}
+
+.name:hover{
+    color: black !important;
+}
+
+.alignment {
+    margin-left: auto;
+    margin-right: auto;
+}
+.alignment {
+    margin-left: auto;
+    margin-right: auto;
+}
+.alignment {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.SubImages img {
+    border-radius: 50%;
+}
+
+.FooterContainer {
+    background-color: rgba(0,0,0,.8);
+    width: 100%;
+    height: 200px;
+    bottom: 0;
+    left: 0;
+}
+
+.FooterContainer table {
+    color: white !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@keyframes HideFooter {
+    from {
+        visibility: visible;
+    }
+    to {
+        visibility: hidden;
+    }
+}
+
+.FooterContainer {
+    animation: HideFooter;
+    animation-delay: 1s;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+.MainImagesContainer {
+    width: 150px!important;
+    height: 150px!important;
+}
+
+.MainImagesContainer img {
+    z-index: -3;
+}
+
+.HoverText {
+    width: 150px !important;
+    height: 150px !important;
+    background-color: rgba(0,0,0,.8);
+    display: none;
+    z-index: 10;
+}
+
+.MainImagesContainer:hover .HoverText {
+    display: block;
+}
+.TableDiv{
+    height:100px;
+    overflow: [ visible, hidden, scroll,auto];
 }
