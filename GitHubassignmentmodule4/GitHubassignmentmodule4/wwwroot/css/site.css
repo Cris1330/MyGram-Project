@@ -107,7 +107,7 @@ html {
 .GramButtons:hover {
     background-color: rebeccapurple;
     border-color: hotpink;
-    border-width: 20;
+    border-width: 20px;
     cursor: progress;
 }
 .Gramcontainer{
