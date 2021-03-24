@@ -86,11 +86,7 @@ caption {
 }
  
 
-.mytitle {
-    font-family: Apple Chancery;
-    font-size:24px;
-    font-weight:bold;
-}
+
 
 
    .number{
@@ -170,7 +166,7 @@ caption {
     z-index: 10;
 }
 
-.MainImagesContainer:hover .HoverText {
-    display: block;
+.MainImagesContainer:hover .HoverText{
+    display:block;
 }
 
